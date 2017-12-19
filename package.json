@@ -1,0 +1,22 @@
+{
+  "name": "tinypng_tool",
+  "version": "1.0.0",
+  "description": "TinyPng tool upload and resize",
+  "main": "app.js",
+  "scripts": {
+    "test": "/bin/test"
+  },
+  "author": "betapcode@gmail.com",
+  "license": "ISC",
+  "bin": "app.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "flags": "^0.1.3",
+    "tinify": "^1.5.0"
+  },
+  "pkg": {
+    "assets": [
+        "node_modules/tinify/**/*.*"
+    ]
+  }
+}
