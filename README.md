@@ -6,6 +6,7 @@
 
 	git clone https://github.com/betapcode/tinypng-tool.git
     cd <folder git>
+    npm install
 
 ## Preamble
 
